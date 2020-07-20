@@ -1,0 +1,3 @@
+# Windows Encrypted Drives
+# /dev/<drive> /media/bitlocker fuse.dislocker user-password=<password>,nofail 0 0
+# /media/bitlocker/dislocker-file /media/<target> auto nofail 0 0
