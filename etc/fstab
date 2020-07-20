@@ -1,3 +1,6 @@
 # Windows Encrypted Drives
 # /dev/<drive> /media/bitlocker fuse.dislocker user-password=<password>,nofail 0 0
 # /media/bitlocker/dislocker-file /media/<target> auto nofail 0 0
+
+# Windows Simple Volume (NTFS)
+# /dev/<drive> /media/<target> ntfs umask=0022,gid=1000,uid=1000 0 0
